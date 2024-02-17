@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.avatar-ico{
+    font-size: 4em;
+}
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.y-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table.tbl, table.tbl th, table.tbl td{
+    border: 1px solid #222;
+    padding: .25em;
+    vertical-align: top;
+}
+
+table.tbl{
+    margin-bottom: 1em;
+}
+
+.tbl th{
+    background-color: #999;
+}
+
+.btn{
+    border-radius: 0 !important;
+    margin: 2.5px;
+}
+
+.form-control, .form-select, .card, .modal-content{
+    border: 1px solid #222 !important;
+    border-radius: 0 !important;
+}
+
+.auth-content{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
