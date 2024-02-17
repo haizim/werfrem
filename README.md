@@ -56,7 +56,10 @@ Direktori ini berisi kumpulan file view yang berfungsi untuk memberikan tampilan
 
 - `{{ $var }}` : menampilkan string pada variable $var
 - `@if( condition ): ... @endif` : melakukan operasi if
-- `@foreach( condition ): ... @foreach` : melakukan operasi foreach
+- `@switch( $var ): case($cond): @endswitch` : melakukan operasi switch case
+- `@for( condition ): ... @endfor` : melakukan operasi for
+- `@foreach( condition ): ... @endforeach` : melakukan operasi foreach
+- `@while( condition ): ... @endwhile` : melakukan operasi while
 
 ---
 ### Demikian sedikit pemaparan mengenai framework saya ini. Jika terdapat pertanyaan ataupun kritik dan saran dapat dilayangkan ke email wahihasyim@gmail.com ataupun ke sosmed IG/X : @haizim_
