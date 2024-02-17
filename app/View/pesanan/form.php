@@ -1,4 +1,4 @@
-<?= component()->Table($table ?? []) ?>
+{{ component()->Table($table ?? []) }}
 <button class='btn btn-secondary'><i class="fa-solid fa-plus"></i> Tambah Produk</button>
 <hr>
 <p>

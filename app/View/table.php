@@ -1,1 +1,1 @@
-<?= component()->Table($table) ?>
+{{ component()->Table($table) }}
